@@ -208,3 +208,6 @@ div.node .node_compose {
   background-repeat: no-repeat;
   display: inline-block
 }
+#Top>.content,.content {
+  max-width: 1350px;
+}
