@@ -5,5 +5,5 @@ GitHub Dark dimmed主题的V2EX自定义CSS
 
 V2EX -> 设置 -> 自定义CSS
 ```css
-@import "https://spacerefugee.github.io/v2ex-github-style/style.min.css";
+@import "https://raw.githubusercontent.com/Willson1220/v2ex-github-style/refs/heads/main/style.min.css";
 ```
