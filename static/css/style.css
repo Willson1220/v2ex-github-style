@@ -29,7 +29,8 @@
 .sls,
 #SecondaryTabs,
 #Wrapper {
-  background-color: var(--box-background-color);
+  background-color: var(--box-background-color) !important;
+  background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7) !important;
 }
 #Rightbar {
   margin-right: 0;
