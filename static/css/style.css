@@ -212,3 +212,41 @@ div.node .node_compose {
 #Top>.content,.content {
   max-width: 1350px;
 }
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-break: anywhere;
+  color: white;
+}
+.subtle {
+  background-color: #2f2f2f;
+  border-left: 3px solid #fffbc1;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: left;
+  border-bottom: 1px solid var(--box-border-color)
+}
+textarea [name="content"] {
+  overflow: hidden;
+  overflow-wrap: break-word;
+  resize: none;
+  height: 112px;
+  color: white;
+}
+.inner {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: left;
+  color: #ccc;
+}
+.wwads-vertical {
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 32px;
+  display: none;
+}
