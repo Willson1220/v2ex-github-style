@@ -23,7 +23,15 @@ jobs:
         run: npm install -g csso-cli
 
       - name: Minify CSS
-        run: csso static/css/*.css --output static/css/v2ex.min.css
+        run: |
+          csso static/css/*.css --output static/css/v2ex.min.css
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add static/css/v2ex.min.css
+          git commit -m "Automated CSS minification"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
