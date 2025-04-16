@@ -200,3 +200,11 @@ div.node .node_compose {
   border: 1px solid;
   border-radius: 6px;
 }
+#Logo {
+  width: 94px;
+  height: 30px;
+  background-image: url(https://wills1220.github.io/v2ex-github-style/static/img/v2ex@2x-white.png);
+  background-size: 94px 30px;
+  background-repeat: no-repeat;
+  display: inline-block
+}
