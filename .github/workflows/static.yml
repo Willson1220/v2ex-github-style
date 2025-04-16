@@ -27,6 +27,7 @@ jobs:
           csso static/css/style.css --output static/css/v2ex.min.css
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git add static/css/v2ex.min.css
           git commit -m "Automated CSS minification"
           git push
