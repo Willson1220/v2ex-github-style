@@ -31,6 +31,7 @@
 #Wrapper {
   background-color: var(--box-background-color) !important;
   background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7) !important;
+  color: white;
 }
 #Rightbar {
   margin-right: 0;
