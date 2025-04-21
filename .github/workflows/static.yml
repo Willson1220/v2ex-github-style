@@ -30,6 +30,7 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git add static/css/v2ex.min.css
           git commit -m "Automated CSS minification"
+          git pull
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
