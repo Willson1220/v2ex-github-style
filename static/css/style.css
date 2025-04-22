@@ -3,7 +3,7 @@
   --box-background-alt-color: #393f4e;
   --box-background-hover-color: #001d25;
   --box-background-darker-color: #001d25;
-  --box-foreground-color: #cdd9e5;
+  --box-foreground-color: #ffffff;
   --box-border-color: #444c56;
   --box-border-focus-color: #3e5874;
   --menu-shadow-color: rgba(200, 200, 255, 0.2);
@@ -250,4 +250,14 @@ textarea [name="content"] {
   align-items: center;
   padding-bottom: 32px;
   display: none;
+}
+a.tb:active,a.tb:link,a.tb:visited {
+  /* font-size:12px; */
+  /* line-height:12px; */
+  /* color:#333; */
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px 10px 3px 10px;
+  border-radius: 15px;
+  text-shadow: 0 1px 0 #fff
 }
